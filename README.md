@@ -1,8 +1,7 @@
-# Proiect PC1
+# Tema Greedy UniBuc
 
-Înlocuiți titlul cu titlul proiectului vostru și adăugați o scurtă descriere.
-
-## Resurse
-
-- Adăugați trimiteri către resursele externe care v-au ajutat sau pe care le-ați folosit.
-- [rlutil](https://github.com/tapio/rlutil/tree/821fdca0191b314ee07b0fad2abe4ea973e45575) (WTFPL)
+### Problema 10 - Fractii egiptene
+- Sa se aplice algoritmul Greedy pentru a transforma o fractie obisnuit intr-o suma de fractii cu numaratorul 1. Se va aplica succesiv formula urmatoare $ x/y = (1/[y/x]) + ((-y)*mod(x))/(y*[y/x]) $
+- Date de intrare : o fractie initiala (cu numarator mai mare de `1`).
+- Date de iesire : suma de fractii cu numarator 1.
+- Exemplu : $ 7/15 = 1/3 + 2/15 = 1/3 + 1/8 + 1/120
